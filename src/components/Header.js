@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 export const Header = () => {
    return (
-      <nav className="navbar navbar-expand-lg navbar-dark bg-primary justify-content-between">
-         <div className="container mt-5">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-primary justify-content-between mb-5">
+         <div className="container ">
             <h1>
                <Link to="/" className="text-light">
                   CRUD - React, Redux, REST API & Axios CRUD - React, Redux, REST API & Axios
